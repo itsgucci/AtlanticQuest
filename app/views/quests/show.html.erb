@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Offered by:</b>
+  <%= @quest.offered_by %>
+</p>
+
+<p>
+  <b>Title:</b>
+  <%= @quest.title %>
+</p>
+
+<p>
+  <b>Body:</b>
+  <%= @quest.body %>
+</p>
+
+<p>
+  <b>Available:</b>
+  <%= @quest.available %>
+</p>
+
+<p>
+  <b>Completed:</b>
+  <%= @quest.completed %>
+</p>
+
+<p>
+  <b>Completed by:</b>
+  <%= @quest.completed_by %>
+</p>
+
+
+<%= link_to 'Edit', edit_quest_path(@quest) %> |
+<%= link_to 'Back', quests_path %>

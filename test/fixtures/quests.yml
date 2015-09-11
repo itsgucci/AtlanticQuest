@@ -1,0 +1,17 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  offered_by: MyString
+  title: MyString
+  body: MyText
+  available: false
+  completed: false
+  completed_by: MyString
+
+two:
+  offered_by: MyString
+  title: MyString
+  body: MyText
+  available: false
+  completed: false
+  completed_by: MyString
